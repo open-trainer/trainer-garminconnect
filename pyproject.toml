@@ -7,7 +7,7 @@ name = "garmin-cron-worker"
 version = "0.1.0"
 description = "Cron worker that loads tasks and fetches Garmin Connect metrics."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 dependencies = [
   "garminconnect",
   "garth",

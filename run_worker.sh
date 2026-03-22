@@ -9,5 +9,6 @@ if [[ -d ".venv" ]]; then
   source ".venv/bin/activate"
 fi
 
+export PYTHONPATH="$SCRIPT_DIR/src${PYTHONPATH:+:$PYTHONPATH}"
 python -m garmin_cron.main "$@"
 

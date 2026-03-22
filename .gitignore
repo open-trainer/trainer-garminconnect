@@ -6,3 +6,6 @@ results/
 cron.log
 .DS_Store
 tokens/
+*garmin_cron*
+results/
+tasks/

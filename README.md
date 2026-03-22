@@ -51,6 +51,12 @@ source .venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
+```
+
+Editable install is optional (works best on newer `pip`):
+
+```bash
+python -m pip install --upgrade pip setuptools wheel
 pip install -e .
 ```
 
@@ -84,7 +90,7 @@ Alternative (legacy) auth file is still supported:
 ## Run Once (manual)
 
 ```bash
-python -m garmin_cron.main
+PYTHONPATH=src python -m garmin_cron.main
 ```
 
 Or:
