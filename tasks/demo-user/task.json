@@ -1,0 +1,17 @@
+{
+  "user_id": "demo-user",
+  "token_source": "demo-user",
+  "metrics": [
+    {
+      "name": "steps",
+      "from": "2026-03-20",
+      "to": "2026-03-21"
+    },
+    {
+      "name": "sleep",
+      "from": "2026-03-20",
+      "to": "2026-03-21"
+    }
+  ]
+}
+

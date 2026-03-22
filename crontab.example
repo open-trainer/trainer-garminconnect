@@ -1,0 +1,4 @@
+# Run every hour.
+# Adjust paths to your machine.
+0 * * * * cd /Users/your-user/path/to/trainer-garminconnect && /Users/your-user/path/to/trainer-garminconnect/.venv/bin/python -m garmin_cron.main >> /Users/your-user/path/to/trainer-garminconnect/cron.log 2>&1
+
